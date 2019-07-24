@@ -108,8 +108,8 @@ document.addEventListener("DOMContentLoaded", function () {
             paragraph1.appendChild(createInput({
                 id: "server",
                 type: "text",
-                placeholder: "my442.geotab.com",
-                value: (debug.enabled === true ? debug.server : undefined)
+                placeholder: "example: my.geotab.com",
+                value: (debug.enabled === true ? debug.server : 'my442.geotab.com')
             }));
 
             // Build database field
@@ -120,8 +120,8 @@ document.addEventListener("DOMContentLoaded", function () {
             paragraph2.appendChild(createInput({
                 id: "database",
                 type: "text",
-                placeholder: "ehi_23x1682",
-                value: (debug.enabled === true ? debug.database : undefined)
+                placeholder: "example: your company name",
+                value: (debug.enabled === true ? debug.database : 'ehi_23x1682')
             }));
 
             // Build email field
@@ -132,8 +132,8 @@ document.addEventListener("DOMContentLoaded", function () {
             paragraph3.appendChild(createInput({
                 id: "email",
                 type: "email",
-                placeholder: "vicki@forwardlogistics.net",
-                value: (debug.enabled === true ? debug.email : undefined)
+                placeholder: "email",
+                value: (debug.enabled === true ? debug.email : 'vicki@forwardlogistics.net')
             }));
 
             // Build password field
@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
             paragraph4.appendChild(createInput({
                 id: "password",
                 type: "password",
-                placeholder: "forward170",
+                placeholder: "password",
                 value: (debug.enabled === true ? debug.password : undefined)
             }));
 
