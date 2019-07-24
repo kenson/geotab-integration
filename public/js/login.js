@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
             paragraph1.appendChild(createInput({
                 id: "server",
                 type: "text",
-                placeholder: "Example: my.geotab.com",
+                placeholder: "my442.geotab.com",
                 value: (debug.enabled === true ? debug.server : undefined)
             }));
 
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
             paragraph2.appendChild(createInput({
                 id: "database",
                 type: "text",
-                placeholder: "Example: MyCompany",
+                placeholder: "ehi_23x1682",
                 value: (debug.enabled === true ? debug.database : undefined)
             }));
 
@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", function () {
             paragraph3.appendChild(createInput({
                 id: "email",
                 type: "email",
-                placeholder: "my.name@mycompany.com",
+                placeholder: "vicki@forwardlogistics.net",
                 value: (debug.enabled === true ? debug.email : undefined)
             }));
 
@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
             paragraph4.appendChild(createInput({
                 id: "password",
                 type: "password",
-                placeholder: "",
+                placeholder: "forward170",
                 value: (debug.enabled === true ? debug.password : undefined)
             }));
 
